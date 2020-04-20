@@ -1,11 +1,11 @@
 {
   "name": "Sunflower",
   "component": false,
-  "license_url": null,
+  "license_url": "https://github.com/akachinonyerem/discourse-sunflower-theme/blob/master/LICENSE",
   "about_url": null,
-  "authors": "Akachi Ogbonna",
-  "theme_version": null,
-  "minimum_discourse_version": "v2.3.0.beta8",
+  "authors": "https://github.com/akachinonyerem",
+  "theme_version": "1.0",
+  "minimum_discourse_version": null,
   "maximum_discourse_version": null,
   "assets": {
   },
