@@ -415,7 +415,10 @@ textarea:focus {
 .drop-down-mode .d-header-icons .active .icon {
     background-color: $colour-brown-05;
     border-radius: $radius-2;
-    border: 0;   
+   // border: 0;  
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent; 
 }
 
 .drop-down-mode .d-header-icons .active .icon:after {
@@ -430,6 +433,11 @@ textarea:focus {
 
 .d-header-icons .icon:hover .d-icon, .d-header-icons .icon:focus .d-icon {
     color: $colour-yellow-01;
+}
+
+//header icon unread notification
+.d-header-icons .unread-notifications {
+    background-color: $colour-grey;
 }
 
 //dropdown header menu
@@ -571,8 +579,9 @@ textarea:focus {
 // topic list latest poster 
 
 .topic-list .posters a:first-child .avatar.latest:not(.single) {
-    box-shadow: none;
-    border: 3px solid $colour-yellow-01;
+    box-shadow: 0 0 3px 1px $colour-yellow-03;
+    border: .5px solid $colour-yellow-01;
+    // border: none;
 }
 
 // topic list table 
@@ -681,9 +690,8 @@ img {
 // --------------------------------------------------
 
 .modal-inner-container {
-    box-shadow: none;
+    box-shadow: 0 8px 10px rgba(0,0,0,0.15);
     border-radius: $radius-5;
-    background-color: $colour-yellow-03;
 }
 
 .modal-header {
@@ -692,6 +700,7 @@ img {
 
 .modal-footer {
     border-top: 1px solid $colour-brown-02;
+    border: 0;
 }
 
 .inline-modal {
