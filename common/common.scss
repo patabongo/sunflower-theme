@@ -580,8 +580,7 @@ textarea:focus {
 
 .topic-list .posters a:first-child .avatar.latest:not(.single) {
     box-shadow: 0 0 3px 1px $colour-yellow-03;
-    border: .5px solid $colour-yellow-01;
-    // border: none;
+    border: 2px solid $colour-yellow-01;
 }
 
 // topic list table 
