@@ -584,6 +584,12 @@ textarea:focus {
     }
 }
 
+// 'last visit' alert and probably others
+
+.topic-list-data span {
+	z-index: 2;
+}
+
 // topic list latest poster 
 
 .topic-list .posters a:first-child .avatar.latest:not(.single) {
