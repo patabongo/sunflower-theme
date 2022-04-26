@@ -61,7 +61,7 @@ tbody.topic-list-body > tr.visited > td {
 	background-color: $colour-cream;;
 }
 
-div.visited {
+div.latest-topic-list-item:not(.visited) {
 	background-color: $colour-yellow-02;
 }
 
