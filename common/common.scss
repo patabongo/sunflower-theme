@@ -57,7 +57,8 @@ pre {
     padding: 1em;
 }
 
-div.visited {
+div.visited,
+tr.visited {
 	background-color: $colour-yellow-01;
 }
 
