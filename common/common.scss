@@ -57,9 +57,12 @@ pre {
     padding: 1em;
 }
 
-div.visited,
 tbody.topic-list-body > tr.visited > td {
 	background-color: $colour-cream;;
+}
+
+div.visited {
+	background-color: $colour-yellow-02;
 }
 
 a {
