@@ -59,7 +59,7 @@ pre {
 
 div.visited,
 tbody.topic-list-body > tr.visited > td {
-	background-color: $colour-yellow-01 !important;
+	background-color: $colour-cream;;
 }
 
 a {
@@ -573,7 +573,7 @@ textarea:focus {
 .topic-list {
 
     td {
-        background-color: $colour-cream;
+        background-color: $colour-yellow-01;
     }
 
     .num a.badge-posts {
