@@ -58,8 +58,8 @@ pre {
 }
 
 div.visited,
-tr.visited {
-	background-color: $colour-yellow-01;
+tbody.topic-list-body > tr.visited {
+	background-color: $colour-yellow-01 !important;
 }
 
 a {
